@@ -1,0 +1,13 @@
+#This is the statistical file we use to compare each method.
+#Only the lines starting with "cm" are importants.
+#cm NbTruePositive NbFalsePositive NbFalseNegative NbTrueNegative NbErrorShadow
+
+cm video baseline PETS2006 55198 96 4660 46
+cm video baseline highway 42856 6724 9493 927
+cm video baseline office 44862 0 15138 0
+cm video baseline pedestrians 55456 0 4544 0
+cm category baseline 198372 6820 33835 973
+
+
+Recall			Specificity		FPR				FNR				PBC				Precision		FMeasure
+0.8531937838	nan	nan	0.1468062162	16.9395833333	0.9656611562	0.9039697452
