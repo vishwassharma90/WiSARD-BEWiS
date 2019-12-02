@@ -1,0 +1,7 @@
+#This is the statistical file we use to compare each method.
+#Only the lines starting with "cm" are importants.
+#cm NbTruePositive NbFalsePositive NbFalseNegative NbTrueNegative NbErrorShadow
+
+cm video nightVideos streetCornerAtNight 59600 0 400 0
+cm video nightVideos tramStation 55425 0 4575 0
+cm video nightVideos fluidHighway 57314 0 2686 0

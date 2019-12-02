@@ -1,0 +1,33 @@
+#This is the statistical file we use to compare each method.
+#Only the lines starting with "cm" are importants.
+#cm NbTruePositive NbFalsePositive NbFalseNegative NbTrueNegative NbErrorShadow
+
+cm video shadow cubicle 54860 0 5140 0
+cm video shadow backdoor 58049 43 1893 15
+cm video shadow bungalows 58745 25 1230 0
+cm video shadow copyMachine 51879 2611 5510 0
+cm video shadow busStation 54416 0 5584 0
+cm video shadow peopleInShade 51708 0 8292 0
+cm category shadow 329657 2679 27649 15
+
+cm video dynamicBackground canoe 57483 0 2517 0
+cm video dynamicBackground overpass 56534 43 3423 0
+cm video dynamicBackground fountain02 57451 0 2549 0
+cm video dynamicBackground fountain01 55619 56 4325 0
+cm video dynamicBackground boats 59992 8 0 0
+cm video dynamicBackground fall 47023 3028 9497 452
+cm category dynamicBackground 334102 3135 22311 452
+
+
+
+cm overall 663759 5814 49960 467
+
+
+
+			Recall			Specificity		FPR				FNR				PBC				Precision		FMeasure
+shadow :	0.9224943605	nan	nan	0.0775056395	8.4244444444	0.9918195598	0.9554429996
+dynamic :	0.9363826769	nan	nan	0.0636173231	7.0683333333	0.9896004186	0.9619408190
+
+Overall :	0.9294385187	nan	nan	0.0705614813	7.7463888889	0.9907099892	0.9586919093
+Your method will not be visible in the Overall section.
+You need all 6 categories to appear in the overall section.
